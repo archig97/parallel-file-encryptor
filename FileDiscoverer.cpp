@@ -7,6 +7,9 @@ std::vector<Task> FileDiscoverer::discover(const std::string& root, TaskType typ
     std::vector<Task> tasks;
 
     for (const auto& entry : fs::recursive_directory_iterator(root)) {
+
+        if (entry.path().extension() == ".enc")
+            continue;
         if (entry.is_regular_file()) {
             tasks.push_back(Task{type, entry.path().string()});
         }
