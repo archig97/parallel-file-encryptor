@@ -4,7 +4,7 @@
 class CryptoEngine {
 public:
     CryptoEngine();
-    void encryptFile(const std::string& path);
+    void encryptFile(const std::string &inputPath, const std::string &outputDir);
     void decryptFile(const std::string& path);
 
 private:

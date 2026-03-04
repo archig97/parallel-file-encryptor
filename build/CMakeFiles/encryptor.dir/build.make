@@ -72,92 +72,92 @@ include CMakeFiles/encryptor.dir/flags.make
 CMakeFiles/encryptor.dir/codegen:
 .PHONY : CMakeFiles/encryptor.dir/codegen
 
-CMakeFiles/encryptor.dir/main.cpp.o: CMakeFiles/encryptor.dir/flags.make
-CMakeFiles/encryptor.dir/main.cpp.o: /Users/archismitaghosh/Desktop/file-encryptor/main.cpp
-CMakeFiles/encryptor.dir/main.cpp.o: CMakeFiles/encryptor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/encryptor.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/encryptor.dir/main.cpp.o -MF CMakeFiles/encryptor.dir/main.cpp.o.d -o CMakeFiles/encryptor.dir/main.cpp.o -c /Users/archismitaghosh/Desktop/file-encryptor/main.cpp
+CMakeFiles/encryptor.dir/src/main.cpp.o: CMakeFiles/encryptor.dir/flags.make
+CMakeFiles/encryptor.dir/src/main.cpp.o: /Users/archismitaghosh/Desktop/file-encryptor/src/main.cpp
+CMakeFiles/encryptor.dir/src/main.cpp.o: CMakeFiles/encryptor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/encryptor.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/encryptor.dir/src/main.cpp.o -MF CMakeFiles/encryptor.dir/src/main.cpp.o.d -o CMakeFiles/encryptor.dir/src/main.cpp.o -c /Users/archismitaghosh/Desktop/file-encryptor/src/main.cpp
 
-CMakeFiles/encryptor.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/encryptor.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archismitaghosh/Desktop/file-encryptor/main.cpp > CMakeFiles/encryptor.dir/main.cpp.i
+CMakeFiles/encryptor.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/encryptor.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archismitaghosh/Desktop/file-encryptor/src/main.cpp > CMakeFiles/encryptor.dir/src/main.cpp.i
 
-CMakeFiles/encryptor.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/encryptor.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archismitaghosh/Desktop/file-encryptor/main.cpp -o CMakeFiles/encryptor.dir/main.cpp.s
+CMakeFiles/encryptor.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/encryptor.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archismitaghosh/Desktop/file-encryptor/src/main.cpp -o CMakeFiles/encryptor.dir/src/main.cpp.s
 
-CMakeFiles/encryptor.dir/FileDiscoverer.cpp.o: CMakeFiles/encryptor.dir/flags.make
-CMakeFiles/encryptor.dir/FileDiscoverer.cpp.o: /Users/archismitaghosh/Desktop/file-encryptor/FileDiscoverer.cpp
-CMakeFiles/encryptor.dir/FileDiscoverer.cpp.o: CMakeFiles/encryptor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/encryptor.dir/FileDiscoverer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/encryptor.dir/FileDiscoverer.cpp.o -MF CMakeFiles/encryptor.dir/FileDiscoverer.cpp.o.d -o CMakeFiles/encryptor.dir/FileDiscoverer.cpp.o -c /Users/archismitaghosh/Desktop/file-encryptor/FileDiscoverer.cpp
+CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.o: CMakeFiles/encryptor.dir/flags.make
+CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.o: /Users/archismitaghosh/Desktop/file-encryptor/src/FileDiscoverer.cpp
+CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.o: CMakeFiles/encryptor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.o -MF CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.o.d -o CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.o -c /Users/archismitaghosh/Desktop/file-encryptor/src/FileDiscoverer.cpp
 
-CMakeFiles/encryptor.dir/FileDiscoverer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/encryptor.dir/FileDiscoverer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archismitaghosh/Desktop/file-encryptor/FileDiscoverer.cpp > CMakeFiles/encryptor.dir/FileDiscoverer.cpp.i
+CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archismitaghosh/Desktop/file-encryptor/src/FileDiscoverer.cpp > CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.i
 
-CMakeFiles/encryptor.dir/FileDiscoverer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/encryptor.dir/FileDiscoverer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archismitaghosh/Desktop/file-encryptor/FileDiscoverer.cpp -o CMakeFiles/encryptor.dir/FileDiscoverer.cpp.s
+CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archismitaghosh/Desktop/file-encryptor/src/FileDiscoverer.cpp -o CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.s
 
-CMakeFiles/encryptor.dir/TaskQueue.cpp.o: CMakeFiles/encryptor.dir/flags.make
-CMakeFiles/encryptor.dir/TaskQueue.cpp.o: /Users/archismitaghosh/Desktop/file-encryptor/TaskQueue.cpp
-CMakeFiles/encryptor.dir/TaskQueue.cpp.o: CMakeFiles/encryptor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/encryptor.dir/TaskQueue.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/encryptor.dir/TaskQueue.cpp.o -MF CMakeFiles/encryptor.dir/TaskQueue.cpp.o.d -o CMakeFiles/encryptor.dir/TaskQueue.cpp.o -c /Users/archismitaghosh/Desktop/file-encryptor/TaskQueue.cpp
+CMakeFiles/encryptor.dir/src/TaskQueue.cpp.o: CMakeFiles/encryptor.dir/flags.make
+CMakeFiles/encryptor.dir/src/TaskQueue.cpp.o: /Users/archismitaghosh/Desktop/file-encryptor/src/TaskQueue.cpp
+CMakeFiles/encryptor.dir/src/TaskQueue.cpp.o: CMakeFiles/encryptor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/encryptor.dir/src/TaskQueue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/encryptor.dir/src/TaskQueue.cpp.o -MF CMakeFiles/encryptor.dir/src/TaskQueue.cpp.o.d -o CMakeFiles/encryptor.dir/src/TaskQueue.cpp.o -c /Users/archismitaghosh/Desktop/file-encryptor/src/TaskQueue.cpp
 
-CMakeFiles/encryptor.dir/TaskQueue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/encryptor.dir/TaskQueue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archismitaghosh/Desktop/file-encryptor/TaskQueue.cpp > CMakeFiles/encryptor.dir/TaskQueue.cpp.i
+CMakeFiles/encryptor.dir/src/TaskQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/encryptor.dir/src/TaskQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archismitaghosh/Desktop/file-encryptor/src/TaskQueue.cpp > CMakeFiles/encryptor.dir/src/TaskQueue.cpp.i
 
-CMakeFiles/encryptor.dir/TaskQueue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/encryptor.dir/TaskQueue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archismitaghosh/Desktop/file-encryptor/TaskQueue.cpp -o CMakeFiles/encryptor.dir/TaskQueue.cpp.s
+CMakeFiles/encryptor.dir/src/TaskQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/encryptor.dir/src/TaskQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archismitaghosh/Desktop/file-encryptor/src/TaskQueue.cpp -o CMakeFiles/encryptor.dir/src/TaskQueue.cpp.s
 
-CMakeFiles/encryptor.dir/CryptoEngine.cpp.o: CMakeFiles/encryptor.dir/flags.make
-CMakeFiles/encryptor.dir/CryptoEngine.cpp.o: /Users/archismitaghosh/Desktop/file-encryptor/CryptoEngine.cpp
-CMakeFiles/encryptor.dir/CryptoEngine.cpp.o: CMakeFiles/encryptor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/encryptor.dir/CryptoEngine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/encryptor.dir/CryptoEngine.cpp.o -MF CMakeFiles/encryptor.dir/CryptoEngine.cpp.o.d -o CMakeFiles/encryptor.dir/CryptoEngine.cpp.o -c /Users/archismitaghosh/Desktop/file-encryptor/CryptoEngine.cpp
+CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.o: CMakeFiles/encryptor.dir/flags.make
+CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.o: /Users/archismitaghosh/Desktop/file-encryptor/src/CryptoEngine.cpp
+CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.o: CMakeFiles/encryptor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.o -MF CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.o.d -o CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.o -c /Users/archismitaghosh/Desktop/file-encryptor/src/CryptoEngine.cpp
 
-CMakeFiles/encryptor.dir/CryptoEngine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/encryptor.dir/CryptoEngine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archismitaghosh/Desktop/file-encryptor/CryptoEngine.cpp > CMakeFiles/encryptor.dir/CryptoEngine.cpp.i
+CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archismitaghosh/Desktop/file-encryptor/src/CryptoEngine.cpp > CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.i
 
-CMakeFiles/encryptor.dir/CryptoEngine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/encryptor.dir/CryptoEngine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archismitaghosh/Desktop/file-encryptor/CryptoEngine.cpp -o CMakeFiles/encryptor.dir/CryptoEngine.cpp.s
+CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archismitaghosh/Desktop/file-encryptor/src/CryptoEngine.cpp -o CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.s
 
-CMakeFiles/encryptor.dir/Worker.cpp.o: CMakeFiles/encryptor.dir/flags.make
-CMakeFiles/encryptor.dir/Worker.cpp.o: /Users/archismitaghosh/Desktop/file-encryptor/Worker.cpp
-CMakeFiles/encryptor.dir/Worker.cpp.o: CMakeFiles/encryptor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/encryptor.dir/Worker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/encryptor.dir/Worker.cpp.o -MF CMakeFiles/encryptor.dir/Worker.cpp.o.d -o CMakeFiles/encryptor.dir/Worker.cpp.o -c /Users/archismitaghosh/Desktop/file-encryptor/Worker.cpp
+CMakeFiles/encryptor.dir/src/Worker.cpp.o: CMakeFiles/encryptor.dir/flags.make
+CMakeFiles/encryptor.dir/src/Worker.cpp.o: /Users/archismitaghosh/Desktop/file-encryptor/src/Worker.cpp
+CMakeFiles/encryptor.dir/src/Worker.cpp.o: CMakeFiles/encryptor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/encryptor.dir/src/Worker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/encryptor.dir/src/Worker.cpp.o -MF CMakeFiles/encryptor.dir/src/Worker.cpp.o.d -o CMakeFiles/encryptor.dir/src/Worker.cpp.o -c /Users/archismitaghosh/Desktop/file-encryptor/src/Worker.cpp
 
-CMakeFiles/encryptor.dir/Worker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/encryptor.dir/Worker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archismitaghosh/Desktop/file-encryptor/Worker.cpp > CMakeFiles/encryptor.dir/Worker.cpp.i
+CMakeFiles/encryptor.dir/src/Worker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/encryptor.dir/src/Worker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archismitaghosh/Desktop/file-encryptor/src/Worker.cpp > CMakeFiles/encryptor.dir/src/Worker.cpp.i
 
-CMakeFiles/encryptor.dir/Worker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/encryptor.dir/Worker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archismitaghosh/Desktop/file-encryptor/Worker.cpp -o CMakeFiles/encryptor.dir/Worker.cpp.s
+CMakeFiles/encryptor.dir/src/Worker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/encryptor.dir/src/Worker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archismitaghosh/Desktop/file-encryptor/src/Worker.cpp -o CMakeFiles/encryptor.dir/src/Worker.cpp.s
 
 # Object files for target encryptor
 encryptor_OBJECTS = \
-"CMakeFiles/encryptor.dir/main.cpp.o" \
-"CMakeFiles/encryptor.dir/FileDiscoverer.cpp.o" \
-"CMakeFiles/encryptor.dir/TaskQueue.cpp.o" \
-"CMakeFiles/encryptor.dir/CryptoEngine.cpp.o" \
-"CMakeFiles/encryptor.dir/Worker.cpp.o"
+"CMakeFiles/encryptor.dir/src/main.cpp.o" \
+"CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.o" \
+"CMakeFiles/encryptor.dir/src/TaskQueue.cpp.o" \
+"CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.o" \
+"CMakeFiles/encryptor.dir/src/Worker.cpp.o"
 
 # External object files for target encryptor
 encryptor_EXTERNAL_OBJECTS =
 
-encryptor: CMakeFiles/encryptor.dir/main.cpp.o
-encryptor: CMakeFiles/encryptor.dir/FileDiscoverer.cpp.o
-encryptor: CMakeFiles/encryptor.dir/TaskQueue.cpp.o
-encryptor: CMakeFiles/encryptor.dir/CryptoEngine.cpp.o
-encryptor: CMakeFiles/encryptor.dir/Worker.cpp.o
+encryptor: CMakeFiles/encryptor.dir/src/main.cpp.o
+encryptor: CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.o
+encryptor: CMakeFiles/encryptor.dir/src/TaskQueue.cpp.o
+encryptor: CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.o
+encryptor: CMakeFiles/encryptor.dir/src/Worker.cpp.o
 encryptor: CMakeFiles/encryptor.dir/build.make
 encryptor: CMakeFiles/encryptor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable encryptor"

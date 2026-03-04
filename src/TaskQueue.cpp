@@ -7,7 +7,7 @@
 TaskQueue::TaskQueue(const std::vector<Task>& tasks)
     : tasks(tasks) {}
 
-void TaskQueue::dispatch(int numWorkers) {
+void TaskQueue::dispatch(int numWorkers, const std::string& outputDir) {
     int taskIndex = 0;
 
     for (int i = 0; i < numWorkers; ++i) {
@@ -15,7 +15,7 @@ void TaskQueue::dispatch(int numWorkers) {
 
         if (pid == 0) { // Child
             Worker worker;
-            worker.process(tasks, i, numWorkers);
+            worker.process(tasks, i, numWorkers, outputDir);
             exit(0);
         }
     }

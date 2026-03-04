@@ -3,14 +3,15 @@
 #include <iostream>
 
 int main(int argc, char* argv[]) {
-    if (argc < 4) {
-        std::cout << "Usage: ./encryptor <encrypt|decrypt> <directory> <workers>\n";
+    if (argc < 5) {
+        std::cout << "Usage: ./encryptor <encrypt|decrypt> <input_dir> <output_dir> <workers>\n";
         return 1;
     }
 
     std::string mode = argv[1];
-    std::string directory = argv[2];
-    int workers = std::stoi(argv[3]);
+    std::string inputDir = argv[2];
+    std::string outputDir = argv[3];
+    int workers = std::stoi(argv[4]);
 
     TaskType type;
 
@@ -23,10 +24,10 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    auto tasks = FileDiscoverer::discover(directory, type);
+    auto tasks = FileDiscoverer::discover(inputDir, type);
 
     TaskQueue queue(tasks);
-    queue.dispatch(workers);
+    queue.dispatch(workers, outputDir);
 
     return 0;
 }

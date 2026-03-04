@@ -5,7 +5,7 @@
 class TaskQueue {
 public:
     TaskQueue(const std::vector<Task>& tasks);
-    void dispatch(int numWorkers);
+    void dispatch(int numWorkers, const std::string& outputDir);
 
 private:
     std::vector<Task> tasks;

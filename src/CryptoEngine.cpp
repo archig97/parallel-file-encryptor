@@ -1,7 +1,9 @@
 #include "../include/CryptoEngine.h"
 #include <fstream>
 #include <stdexcept>
+#include <filesystem>
 #include <cstdlib>
+
 
 CryptoEngine::CryptoEngine() {
     const char* envKey = std::getenv("ENCRYPTION_KEY");
@@ -11,8 +13,15 @@ CryptoEngine::CryptoEngine() {
     key = envKey;
 }
 
-void CryptoEngine::encryptFile(const std::string& path) {
-    transform(path, path + ".enc", true);
+void CryptoEngine::encryptFile(const std::string& inputPath, const std::string& outputDir) {
+
+    std::filesystem::path inPath(inputPath);
+
+    std::filesystem::path outPath =
+        std::filesystem::path(outputDir) /
+        (inPath.filename().string() + ".enc");
+
+    transform(inPath.string(), outPath.string(), true);
 }
 
 void CryptoEngine::decryptFile(const std::string& path) {

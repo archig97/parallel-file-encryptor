@@ -2,10 +2,15 @@
 #include "../include/CryptoEngine.h"
 #include <iostream>
 #include <unistd.h>
+#include <filesystem>
 
 
 
-void Worker::process(const std::vector<Task>& tasks, int workerId, int totalWorkers) {
+void Worker::process(
+    const std::vector<Task>& tasks,
+    int workerId,
+    int totalWorkers,
+    const std::string& outputDir) {
     CryptoEngine engine;
 
     for (size_t i = workerId; i < tasks.size(); i += totalWorkers) {
@@ -15,7 +20,7 @@ void Worker::process(const std::vector<Task>& tasks, int workerId, int totalWork
 
         try {
             if (task.type == TaskType::Encrypt)
-                engine.encryptFile(task.filepath);
+                engine.encryptFile(task.filepath, outputDir);
             else
                 engine.decryptFile(task.filepath);
         } catch (const std::exception& e) {

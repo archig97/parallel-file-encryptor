@@ -129,125 +129,125 @@ encryptor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/build
 .PHONY : encryptor/fast
 
-CryptoEngine.o: CryptoEngine.cpp.o
-.PHONY : CryptoEngine.o
+src/CryptoEngine.o: src/CryptoEngine.cpp.o
+.PHONY : src/CryptoEngine.o
 
 # target to build an object file
-CryptoEngine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/CryptoEngine.cpp.o
-.PHONY : CryptoEngine.cpp.o
+src/CryptoEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.o
+.PHONY : src/CryptoEngine.cpp.o
 
-CryptoEngine.i: CryptoEngine.cpp.i
-.PHONY : CryptoEngine.i
+src/CryptoEngine.i: src/CryptoEngine.cpp.i
+.PHONY : src/CryptoEngine.i
 
 # target to preprocess a source file
-CryptoEngine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/CryptoEngine.cpp.i
-.PHONY : CryptoEngine.cpp.i
+src/CryptoEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.i
+.PHONY : src/CryptoEngine.cpp.i
 
-CryptoEngine.s: CryptoEngine.cpp.s
-.PHONY : CryptoEngine.s
+src/CryptoEngine.s: src/CryptoEngine.cpp.s
+.PHONY : src/CryptoEngine.s
 
 # target to generate assembly for a file
-CryptoEngine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/CryptoEngine.cpp.s
-.PHONY : CryptoEngine.cpp.s
+src/CryptoEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/CryptoEngine.cpp.s
+.PHONY : src/CryptoEngine.cpp.s
 
-FileDiscoverer.o: FileDiscoverer.cpp.o
-.PHONY : FileDiscoverer.o
+src/FileDiscoverer.o: src/FileDiscoverer.cpp.o
+.PHONY : src/FileDiscoverer.o
 
 # target to build an object file
-FileDiscoverer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/FileDiscoverer.cpp.o
-.PHONY : FileDiscoverer.cpp.o
+src/FileDiscoverer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.o
+.PHONY : src/FileDiscoverer.cpp.o
 
-FileDiscoverer.i: FileDiscoverer.cpp.i
-.PHONY : FileDiscoverer.i
+src/FileDiscoverer.i: src/FileDiscoverer.cpp.i
+.PHONY : src/FileDiscoverer.i
 
 # target to preprocess a source file
-FileDiscoverer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/FileDiscoverer.cpp.i
-.PHONY : FileDiscoverer.cpp.i
+src/FileDiscoverer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.i
+.PHONY : src/FileDiscoverer.cpp.i
 
-FileDiscoverer.s: FileDiscoverer.cpp.s
-.PHONY : FileDiscoverer.s
+src/FileDiscoverer.s: src/FileDiscoverer.cpp.s
+.PHONY : src/FileDiscoverer.s
 
 # target to generate assembly for a file
-FileDiscoverer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/FileDiscoverer.cpp.s
-.PHONY : FileDiscoverer.cpp.s
+src/FileDiscoverer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/FileDiscoverer.cpp.s
+.PHONY : src/FileDiscoverer.cpp.s
 
-TaskQueue.o: TaskQueue.cpp.o
-.PHONY : TaskQueue.o
+src/TaskQueue.o: src/TaskQueue.cpp.o
+.PHONY : src/TaskQueue.o
 
 # target to build an object file
-TaskQueue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/TaskQueue.cpp.o
-.PHONY : TaskQueue.cpp.o
+src/TaskQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/TaskQueue.cpp.o
+.PHONY : src/TaskQueue.cpp.o
 
-TaskQueue.i: TaskQueue.cpp.i
-.PHONY : TaskQueue.i
+src/TaskQueue.i: src/TaskQueue.cpp.i
+.PHONY : src/TaskQueue.i
 
 # target to preprocess a source file
-TaskQueue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/TaskQueue.cpp.i
-.PHONY : TaskQueue.cpp.i
+src/TaskQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/TaskQueue.cpp.i
+.PHONY : src/TaskQueue.cpp.i
 
-TaskQueue.s: TaskQueue.cpp.s
-.PHONY : TaskQueue.s
+src/TaskQueue.s: src/TaskQueue.cpp.s
+.PHONY : src/TaskQueue.s
 
 # target to generate assembly for a file
-TaskQueue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/TaskQueue.cpp.s
-.PHONY : TaskQueue.cpp.s
+src/TaskQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/TaskQueue.cpp.s
+.PHONY : src/TaskQueue.cpp.s
 
-Worker.o: Worker.cpp.o
-.PHONY : Worker.o
+src/Worker.o: src/Worker.cpp.o
+.PHONY : src/Worker.o
 
 # target to build an object file
-Worker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/Worker.cpp.o
-.PHONY : Worker.cpp.o
+src/Worker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/Worker.cpp.o
+.PHONY : src/Worker.cpp.o
 
-Worker.i: Worker.cpp.i
-.PHONY : Worker.i
+src/Worker.i: src/Worker.cpp.i
+.PHONY : src/Worker.i
 
 # target to preprocess a source file
-Worker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/Worker.cpp.i
-.PHONY : Worker.cpp.i
+src/Worker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/Worker.cpp.i
+.PHONY : src/Worker.cpp.i
 
-Worker.s: Worker.cpp.s
-.PHONY : Worker.s
+src/Worker.s: src/Worker.cpp.s
+.PHONY : src/Worker.s
 
 # target to generate assembly for a file
-Worker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/Worker.cpp.s
-.PHONY : Worker.cpp.s
+src/Worker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/Worker.cpp.s
+.PHONY : src/Worker.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encryptor.dir/build.make CMakeFiles/encryptor.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -258,21 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... encryptor"
-	@echo "... CryptoEngine.o"
-	@echo "... CryptoEngine.i"
-	@echo "... CryptoEngine.s"
-	@echo "... FileDiscoverer.o"
-	@echo "... FileDiscoverer.i"
-	@echo "... FileDiscoverer.s"
-	@echo "... TaskQueue.o"
-	@echo "... TaskQueue.i"
-	@echo "... TaskQueue.s"
-	@echo "... Worker.o"
-	@echo "... Worker.i"
-	@echo "... Worker.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/CryptoEngine.o"
+	@echo "... src/CryptoEngine.i"
+	@echo "... src/CryptoEngine.s"
+	@echo "... src/FileDiscoverer.o"
+	@echo "... src/FileDiscoverer.i"
+	@echo "... src/FileDiscoverer.s"
+	@echo "... src/TaskQueue.o"
+	@echo "... src/TaskQueue.i"
+	@echo "... src/TaskQueue.s"
+	@echo "... src/Worker.o"
+	@echo "... src/Worker.i"
+	@echo "... src/Worker.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
