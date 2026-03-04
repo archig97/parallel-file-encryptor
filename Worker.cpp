@@ -1,12 +1,17 @@
 #include "Worker.h"
 #include "CryptoEngine.h"
 #include <iostream>
+#include <unistd.h>
+
+
 
 void Worker::process(const std::vector<Task>& tasks, int workerId, int totalWorkers) {
     CryptoEngine engine;
 
     for (size_t i = workerId; i < tasks.size(); i += totalWorkers) {
         const Task& task = tasks[i];
+        std::cout << "[Worker " << workerId << "] PID " << getpid()
+            << " processing: " << task.filepath << std::endl;
 
         try {
             if (task.type == TaskType::Encrypt)
