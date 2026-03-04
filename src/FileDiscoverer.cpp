@@ -1,4 +1,4 @@
-#include "FileDiscoverer.h"
+#include "../include/FileDiscoverer.h"
 #include <filesystem>
 
 namespace fs = std::filesystem;

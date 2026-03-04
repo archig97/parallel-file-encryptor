@@ -1,5 +1,5 @@
-#include "FileDiscoverer.h"
-#include "TaskQueue.h"
+#include "../include/FileDiscoverer.h"
+#include "../include/TaskQueue.h"
 #include <iostream>
 
 int main(int argc, char* argv[]) {

@@ -4,18 +4,18 @@ project(ParallelEncryptor)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(encryptor
-        main.cpp
-        FileDiscoverer.cpp
-        TaskQueue.cpp
-        CryptoEngine.cpp
-        Worker.cpp
-        FileDiscoverer.cpp
-        TaskQueue.cpp
-        Worker.cpp
-        CryptoEngine.cpp
-        Task.h
-        FileDiscoverer.h
-        TaskQueue.h
-        Worker.h
-        CryptoEngine.h
+        src/main.cpp
+        src/FileDiscoverer.cpp
+        src/TaskQueue.cpp
+        src/CryptoEngine.cpp
+        src/Worker.cpp
+        src/FileDiscoverer.cpp
+        src/TaskQueue.cpp
+        src/Worker.cpp
+        src/CryptoEngine.cpp
+        include/Task.h
+        include/FileDiscoverer.h
+        include/TaskQueue.h
+        include/Worker.h
+        include/CryptoEngine.h
 )

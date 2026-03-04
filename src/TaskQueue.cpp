@@ -1,5 +1,5 @@
-#include "TaskQueue.h"
-#include "Worker.h"
+#include "../include/TaskQueue.h"
+#include "../include/Worker.h"
 #include <unistd.h>
 #include <sys/wait.h>
 #include <iostream>
