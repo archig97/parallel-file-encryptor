@@ -1,0 +1,3 @@
+/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles/encryptor.dir
+/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles/edit_cache.dir
+/Users/archismitaghosh/Desktop/file-encryptor/build/CMakeFiles/rebuild_cache.dir
